@@ -6,31 +6,22 @@ export default function Header() {
       <div className="position">
         <div className="Header">
           <div className="Left">
-            <div className="bar" />
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-            </svg>
-            <p>Nom Prenom</p>
+            {/* <div className="bar" /> */}
+            <img
+              src="https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/324558422_564348688872653_19847098762469474_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mjbYHvFue-0AX8ph2cq&_nc_ht=scontent-cdt1-1.xx&oh=00_AfCMHSQKboSdZr7y6dpQidXoQMjoW2U2eZwsFur6mDxJJQ&oe=63D071DD"
+              className="logo"
+            />
+            <p className="color">Sarah Thiolat</p>
           </div>
           <div className="Middle">
-            <p>Accueil</p>
-            <p>Collection</p>
-            <p>Contact</p>
-            <p>A Propos</p>
+            <p className="color">Accueil</p>
+            <p className="color">Collection</p>
+            <p className="color">Contact</p>
+            <p className="color">A Propos</p>
           </div>
           <div className="Right">
-            <p>Login</p>
-            <div className="bar" />
+            <p className="color">Login</p>
+            {/* <div className="bar" /> */}
           </div>
         </div>
       </div>

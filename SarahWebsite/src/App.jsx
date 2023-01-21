@@ -1,15 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Header from "./components/Header/header";
 import Carousel from "./components/Carousel/Carousel";
+import Details from "./components/Details/details";
+import Photo from "./components/photo/photo";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Carousel />
-      <h1>test</h1>
+      <Details />
+      <Photo />
+      <Footer />
     </div>
   );
 }
