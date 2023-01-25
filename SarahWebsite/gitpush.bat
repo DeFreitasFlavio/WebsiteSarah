@@ -5,8 +5,8 @@ if "%1" == "" or "%1" < 4 (
 ) else (
     git commit -m %1
 
-    git push
-
+    rem git push
+    color 0a
     echo "Done"
 )
 
