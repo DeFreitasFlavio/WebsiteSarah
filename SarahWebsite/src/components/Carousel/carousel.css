@@ -53,12 +53,12 @@ img.surf {
 
 .carousel-button.prev {
   left: 1rem;
-  padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
 }
 
 .carousel-button.next {
   right: 1rem;
-  padding: 0.1rem 0.5rem 0.5rem 0.5rem;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
 }
 
 .carousel-button.down {
