@@ -41,7 +41,6 @@ img.surf {
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   border-radius: 0.25rem;
-  padding: 0 0.25rem 0.25rem 0;
   background-color: rgba(0, 0, 0, 0.2);
   object-position: center;
 }
@@ -68,4 +67,15 @@ img.surf {
   left: 50%;
   right: 50%;
   padding: 0.5rem 2.5rem 1rem 0.5rem;
+}
+
+@media (max-width: 805px) {
+  .carousel-button.prev,
+  .carousel-button.next,
+  .carousel-button.down {
+    font-size: 3rem;
+  }
+  .carousel-button.down {
+    padding: 0.25rem 2rem 1rem 0.5rem;
+  }
 }
