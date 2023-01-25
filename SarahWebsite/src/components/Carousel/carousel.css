@@ -64,9 +64,8 @@ img.surf {
 .carousel-button.down {
   position: absolute;
   top: 90%;
-  left: 50%;
-  right: 50%;
-  padding: 0.5rem 2.5rem 1rem 0.5rem;
+  left: 49%;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
 @media (max-width: 805px) {
@@ -76,6 +75,6 @@ img.surf {
     font-size: 3rem;
   }
   .carousel-button.down {
-    padding: 0.25rem 2rem 1rem 0.5rem;
+    padding: 0.25rem 0.5rem 1rem 0.5rem;
   }
 }
