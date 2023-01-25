@@ -64,17 +64,18 @@ img.surf {
 .carousel-button.down {
   position: absolute;
   top: 90%;
-  left: 49%;
+  left: 48%;
   padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
 @media (max-width: 805px) {
   .carousel-button.prev,
-  .carousel-button.next,
-  .carousel-button.down {
+  .carousel-button.next {
     font-size: 3rem;
+    padding-top: 0rem;
   }
   .carousel-button.down {
+    font-size: 3rem;
     padding: 0.25rem 0.5rem 1rem 0.5rem;
   }
 }
