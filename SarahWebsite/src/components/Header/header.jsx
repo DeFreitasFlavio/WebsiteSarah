@@ -1,4 +1,5 @@
 import "./header.css";
+import Logo from "../../assets/logo.jpg";
 
 export default function Header() {
   return (
@@ -7,10 +8,7 @@ export default function Header() {
         <div className="Header">
           <div className="Left">
             {/* <div className="bar" /> */}
-            <img
-              src="https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/324558422_564348688872653_19847098762469474_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=mjbYHvFue-0AX8ph2cq&_nc_ht=scontent-cdt1-1.xx&oh=00_AfCMHSQKboSdZr7y6dpQidXoQMjoW2U2eZwsFur6mDxJJQ&oe=63D071DD"
-              className="logo"
-            />
+            <img src={Logo} className="logo" />
             <p className="color">Sarah Thiolat</p>
           </div>
           <div className="Middle">
