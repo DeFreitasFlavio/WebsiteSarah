@@ -21,7 +21,7 @@ div.Header {
 div.Left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: start;
 }
 
 div.Middle {
@@ -29,6 +29,13 @@ div.Middle {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+}
+
+div.Right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 div.bar {
@@ -40,21 +47,21 @@ div.bar {
 .logo {
   width: 80px;
   height: 80px;
-  border-radius: 50px;
+  border-radius: 100%;
 }
 
 p.color {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   color: black;
 }
 @media (max-width: 805px) {
   p.color {
-    font-size: 14px;
+    font-size: 0.85rem;
   }
 }
 @media (max-width: 705px) {
   p.color {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
