@@ -7,8 +7,6 @@ if "%1" == "" or "%1" < 4 (
 
     git push
 
-
-color 0d
-@echo "Done"
+    echo "Done"
 )
 
