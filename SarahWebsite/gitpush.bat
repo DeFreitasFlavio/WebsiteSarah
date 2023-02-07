@@ -1,12 +1,21 @@
-git add .
+@echo off
 
-if "%1" == "" or "%1" < 4 (
-    echo "Please enter a commit message"
-) else (
-    git commit -m %1
+set message=%1
+set len=%message:~0,-1%
 
-    rem git push
-    
-    echo "Done"
+if "%message%"=="" (
+    echo Please provide a commit message
+    exit /b
 )
 
+
+rem add all files to git
+git add .
+
+rem commit the changes with a message
+git commit -m "%message%"
+
+rem push the changes to the remote repository
+git push
+
+@echo "Done! :)"

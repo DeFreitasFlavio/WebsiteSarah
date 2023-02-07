@@ -9,9 +9,22 @@ img.box {
   width: 27%;
 }
 
+.box-middle {
+  position: relative;
+  left: 39%;
+  width: 27%;
+}
+
+.blur {
+  border-image: url(SUNSETCUBA.jpg);
+  padding: 10px;
+  background-size: cover;
+  filter: blur(0px);
+}
+
 .box-right {
   position: relative;
-  left: 62%;
+  left: 64%;
   width: 27%;
 }
 

@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import "./carousel.css";
-import Surf from "../../assets/surf-sundown.jpg";
-import Sundown from "../../assets/sundown.jpg";
-import Water from "../../assets/water.jpg";
+import Surf from "../../assets/SUNSETCUBA.jpeg";
+import MenWater from "../../assets/P1022657.jpg";
+import Water from "../../assets/P1022573.jpg";
+import MenWater2 from "../../assets/P1022593.jpg";
+import Water2 from "../../assets/water.jpg";
 
 export default function Carousel() {
   useEffect(() => {
@@ -39,10 +41,16 @@ export default function Carousel() {
           <img src={Surf} className="surf" />
         </li>
         <li className="slide">
-          <img src={Sundown} className="surf" />
+          <img src={MenWater} className="surf" />
         </li>
         <li className="slide">
           <img src={Water} className="surf" />
+        </li>
+        <li className="slide">
+          <img src={MenWater2} className="surf" />
+        </li>
+        <li className="slide">
+          <img src={Water2} className="surf" />
         </li>
       </ul>
     </div>
