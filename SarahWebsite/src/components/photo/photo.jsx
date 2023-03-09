@@ -20,6 +20,18 @@ import Cuba from "../../assets/P1022327.jpg";
 import Mountain from "../../assets/P1022329.jpg";
 import Sunset from "../../assets/P1022333.jpg";
 import Tree from "../../assets/P1022335.jpg";
+import Water from "../../assets/P1022348.jpg";
+import MenWater from "../../assets/P1022564.jpg";
+import Water2 from "../../assets/P1022573.jpg";
+import MenWater2 from "../../assets/P1022585.jpg";
+import MenWater3 from "../../assets/P1022593.jpg";
+import MenWater4 from "../../assets/P1022598.jpg";
+import Water3 from "../../assets/P1022608.jpg";
+import MenWater5 from "../../assets/P1022654.jpg";
+import MenWater6 from "../../assets/P1022657.jpg";
+import Water4 from "../../assets/P1022705.jpg";
+import Water5 from "../../assets/P1022747.jpg";
+import WomenWater from "../../assets/P1022750.jpg";
 
 export default function Photo() {
   return (
@@ -96,13 +108,13 @@ export default function Photo() {
           <img src={Tree} alt="Water + Hill" className="box" />
         </div>
         <div className="box-right">
-          <img src={Legume} alt="Water + Hill" className="box" />
+          <img src={Water} alt="Water + Hill" className="box" />
         </div>
         <div className="box-middle">
-          <img src={Tower2} alt="Water + Hill" className="box" />
+          <img src={MenWater} alt="Water + Hill" className="box" />
         </div>
         <div className="box-left">
-          <img src={Tower3} alt="Water + Hill" className="box" />
+          <img src={Water2} alt="Water + Hill" className="box" />
         </div>
       </div>
     </>
