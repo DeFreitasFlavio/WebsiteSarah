@@ -9,7 +9,9 @@ export default function Header() {
           <div className="Left">
             {/* <div className="bar" /> */}
             <img src={Logo} className="logo" />
-            <p className="color">Sarah Thiolat</p>
+            <a href="">
+              <p className="color">Sarah Thiolat</p>
+            </a>
           </div>
           <div className="Middle">
             <p className="color">Accueil</p>
