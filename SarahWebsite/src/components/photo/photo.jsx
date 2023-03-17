@@ -23,7 +23,7 @@ import Tree from "../../assets/P1022335.jpg";
 import Water from "../../assets/P1022348.jpg";
 import MenWater from "../../assets/P1022564.jpg";
 import Water2 from "../../assets/P1022573.jpg";
-import MenWater2 from "../../assets/P1022585.jpg";
+/* import MenWater2 from "../../assets/P1022585.jpg";
 import MenWater3 from "../../assets/P1022593.jpg";
 import MenWater4 from "../../assets/P1022598.jpg";
 import Water3 from "../../assets/P1022608.jpg";
@@ -31,7 +31,7 @@ import MenWater5 from "../../assets/P1022654.jpg";
 import MenWater6 from "../../assets/P1022657.jpg";
 import Water4 from "../../assets/P1022705.jpg";
 import Water5 from "../../assets/P1022747.jpg";
-import WomenWater from "../../assets/P1022750.jpg";
+import WomenWater from "../../assets/P1022750.jpg"; */
 
 export default function Photo() {
   return (
